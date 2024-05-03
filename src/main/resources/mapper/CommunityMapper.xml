@@ -14,6 +14,7 @@
 
     <select id="findPostAll" resultType="PostVO">
         SELECT * FROM tbl_community_post
+        order by updated_at desc
     </select>
 
     <select id="findPostById" parameterType="Long" resultType="PostVO">

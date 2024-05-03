@@ -28,7 +28,7 @@ class CommunityRepositoryTest {
         Long postNo = communityRepository.getPostNo();
         PostVO postVO = PostVO.builder()
                 .postNo(postNo)
-                .userNo("uuidtest")
+                .userNo("uuidtest1")
                 .title("게시물 제목")
                 .updatedAt(LocalDateTime.now())
                 .content("게시물 내용")
